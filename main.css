@@ -1,0 +1,19 @@
+body {
+  font-family: Apple SD Gothic Neo, AppleSDGothicNeo, Helvetica, Arial,
+    sans-serif;
+  font-weight: 300;
+  color: rgb(67, 90, 111);
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    margin: 0 20px;
+  }
+}
